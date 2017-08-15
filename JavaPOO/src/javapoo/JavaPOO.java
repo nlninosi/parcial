@@ -21,7 +21,10 @@ public class JavaPOO {
        }
           
     }
-    public static double funcion(){
-        
+    public static int funcion(int entrada){
+        int proceso = 0,salida = 0;    
+        proceso = entrada * -1;
+        salida = proceso;
+        return salida;
     }
 }
