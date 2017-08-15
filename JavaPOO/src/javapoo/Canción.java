@@ -12,6 +12,6 @@ package javapoo;
 public class Canción {
     public String titulo;
     public void sonar (){
-        System.out.println("Sonando " this.title);
+        System.out.println("Sonando " this.titulo);
     }
 }
