@@ -16,7 +16,7 @@ public class Main {
         c1.titulo = "Close to Me";
         c2.titulo = "Cancion 2";
         c1.sonar();
-        c2.sonar();asdfasfasdfasf
+        c2.sonar();
         
     }
     
