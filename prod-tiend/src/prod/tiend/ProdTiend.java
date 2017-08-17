@@ -11,11 +11,24 @@ package prod.tiend;
  */
 public class ProdTiend {
 
-    /**
-     * @param args the command line arguments
-     */
+   
     public static void main(String[] args) {
-        // TODO code application logic here
+    Scanner in = new Scanner(System.in);
+        System.out.println("Bienvenido a la Tienda");
+        System.out.println("Creación de Producto");
+        System.out.println("Nombre Producto");
+        String nombreProducto = in.next();
+        System.out.println("Precio Producto");
+        double precio = in.nextDouble();
+        Producto producto = new Producto(nombre producto, precio);
+        
+        System.out.println("Nit de la Tienda");
+        int nit = in.nextInt();
+        System.out.println("Nombre Tienda");
+        String nombreTienda = in.next();
+        Tienda tienda = new Tienda(nit, nombreTienda);
+        tienda.setProducto(producto);
+        
     }
     
 }
